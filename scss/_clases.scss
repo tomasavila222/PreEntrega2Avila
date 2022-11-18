@@ -1,10 +1,13 @@
 .tenemos {
     color: #03658C;
+    text-align: center;
   }
   
-  .formulario {
+ .formulario {
     margin: 50px;
-  }
+    width: 400px;
+
+  } 
   
   .planes {
     text-shadow: blueviolet;
@@ -16,18 +19,50 @@
   }
   
   .imagenquienes {
-    padding: 10px;
-    width: auto;
-    height: auto;
+    width: 70%;
+    height: 70%;
+  
   }
   
 
   .pregfre {
     text-align: center;
     padding: 75px;
+    background-color: #A62177;
   }
   
   .comentarios {
 padding: 10px;
 text-align: center;
   }
+  
+  .footer{
+    background-color: #A62177;
+  }
+
+  .formcontact{
+width: 400px;
+background-color: #03658C;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white; 
+}
+
+.formcontact legend{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px; 
+}
+
+.inputclass{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+}
+

@@ -11,12 +11,16 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="./img/logotiempolibre.jpg" />
-    <title>Inicio</title>
-      <link
-      rel="stylesheet"
-      type="text/css"
-      href="../scss/custom.css"
+    <meta
+      name="description"
+      content="Encontra a tu personal trainer ideal, el cual te proporcionara seguimiento y una guia detalla de acuerdo a tus necesidades sobre como conseguir aquello que buscas de manera mas eficiente"
     />
+    <meta
+      name="keywords"
+      content="Personal trainer, ejercicio, dieta, asesoramiento, online"
+    />
+    <meta name="author" content="Tomas Avila" />
+    <title>Inicio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,6 +32,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" type="text/css" href="./scss/custom.css" />
   </head>
   <body>
     <header class="header">
@@ -36,12 +41,12 @@
           <a class="navbar-brand" href="#">
             <img
               class="logoheader"
-              src="../img/logotiempolibre.jpg"
+              src="./img/logotiempolibre.jpg"
               alt="logonavegacion"
             />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler botonMenu"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -49,14 +54,11 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon imagenBotonNav"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="../index.html"
+              <a class="nav-link active" aria-current="page" href="./index.html"
                 >Inicio</a
               >
               <a class="nav-link" href="./html/planes.html">Planes</a>
@@ -77,24 +79,24 @@
     </header>
 
     <section>
-      <h2>Que tu proposito sea tener un cuerpo saludable</h2>
+      <h1>Que tu proposito sea tener un cuerpo saludable</h1>
     </section>
 
     <div class="tenemos">
-      <ol>
-        <li>Los mejores entrenadores</li>
-        <li>La mejor asesoria</li>
-        <li>Atencion personalizada</li>
-        <li>Planes de acuerdo a tus necesidades</li>
-        <li>Incorporacion inmediata</li>
-        <li>Presencia en todas las ciudades y redes sociales</li>
-      </ol>
+      <p>
+        Los mejores entrenadores <br />
+        La mejor asesoria <br />
+        Atencion personalizada <br />
+        Planes de acuerdo a tus necesidades <br />
+        Incorporacion inmediata <br />
+        Presencia en todas las ciudades y redes sociales
+      </p>
     </div>
 
     <!--Definir si opiniones de usuarios o imagenes ilustrativas-->
     <section id="galeria" class="container-fluid">
       <div class="text-center pt-5">
-        <h1>Opiniones de nuestros usuarios</h1>
+        <h2>Opiniones de nuestros usuarios</h2>
         <p>
           Podríamos intentar convencerte de que somos los mejores, pero haremos
           algo incluso mejor, dejar que quienes ya han probado nuestro servicio
@@ -103,8 +105,8 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-1 movimiento">
-          <img src="img/imagen1.jpg" alt="Galeria Imagen" />
+        <div class="col-lg-4 col-md-6 col-sm-12 movimiento">
+          <img src="img/chicaentrenando.jpg" alt="Galeria Imagen" />
           <p class="comentarios">
             ¡Justo lo que necesitaba para cambiar el rumbo de mi vida, recibo
             ayuda siempre que lo necesito y un seguimiento constante, todo desde
@@ -112,8 +114,8 @@
           </p>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-1 movimiento">
-          <img src="img/imagen1.jpg" alt="Galeria Imagen" />
+        <div class="col-lg-4 col-md-6 col-sm-12 movimiento">
+          <img src="img/hombreentrenando1.jpg" alt="Galeria Imagen" />
           <p class="comentarios">
             ¡Llevaba años intenta hacer un cambio, pero la idea de encontrar un
             entrenador personal que se adecue a lo que busco me hacía echarme
@@ -122,8 +124,8 @@
           </p>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-1 movimiento">
-          <img src="img/imagen1.jpg" alt="Galeria Imagen" />
+        <div class="col-lg-4 col-md-6 col-sm-12 movimiento">
+          <img src="img/hombreentrenando3.jpg" alt="Galeria Imagen" />
           <p class="comentarios">
             Desde que comencé con tiempo libre recupere mi estado físico y lo
             mejor no necesito ir a ningún lugar para resolver mis dudas sobre un
@@ -139,7 +141,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Facebook</h5>
+                <h3 class="card-title">Facebook</h3>
                 <p class="card-text">
                   Ponte en contacto con un asesor que respondera todas tus
                   preguntas. Tiempo de atencion estimado 24hs
@@ -147,7 +149,7 @@
                 <a
                   href="https://www.facebook.com/"
                   target="_blank"
-                  class="btn btn-primary bg-dark"
+                  class="btn btn-clasebotones"
                   >Quiero hablar con un asesor</a
                 >
               </div>
@@ -156,7 +158,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Soporte</h5>
+                <h3 class="card-title">Soporte</h3>
                 <p class="card-text">
                   Si ya has adquirido un plan y estas teniendo algun
                   incoveniente genera un ticket para recibir ayuda de nuestro
@@ -165,7 +167,7 @@
                 <a
                   href="https://outlook.live.com/"
                   target="_blank"
-                  class="btn btn-primary bg-dark"
+                  class="btn btn-clasebotones"
                   >Necesito ayuda</a
                 >
               </div>

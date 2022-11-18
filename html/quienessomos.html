@@ -12,14 +12,19 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="../img/logotiempolibre.jpg" />
+    <meta
+      name="description"
+      content="Encontra a tu personal trainer ideal, el cual te proporcionara seguimiento y una guia detalla de acuerdo a tus necesidades sobre como conseguir aquello que buscas de manera mas eficiente"
+    />
+    <meta
+      name="keywords"
+      content="Personal trainer, ejercicio, dieta, asesoramiento, online"
+    />
+    <meta name="author" content="Tomas Avila" />
     <title>Quienes Somos</title>
     <meta
       name="description"
       content="Tiempo libre se especializa en detectar las necesidades o deseos de sus usuarios para ayudarlos a conseguirlos, mediante entrenadores con atencion personalizada para cada cliente asi como un control diario."
-      <link
-      rel="stylesheet"
-      type="text/css"
-      href="../scss/custom.css"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -32,6 +37,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" type="text/css" href="../scss/custom.css" />
   </head>
   <body>
     <header class="header">
@@ -41,11 +47,11 @@
             <img
               class="logoheader"
               src="../img/logotiempolibre.jpg"
-              alt="logo"
+              alt="logo tiempo libre pequeño para el menu navegacion"
             />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler botonMenu"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -53,7 +59,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon imagenBotonNav"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -77,19 +83,28 @@
         </div>
       </nav>
     </header>
-
     <main>
-      <div class="imagenquienes">
-        <!--imagen ejemplo x-->
-        <img src="../img/imagen1.jpg" class="col-lg-4 col-md-6 col-sm-2" />
-        <!--imagen ejemplo x-->
+      <h1>Conoce mas sobre quienes somos y como trabajamos</h1>
+
+      <div class="container-fluid col-lg-7 col-md-6 col-sm-12">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/P4GB4t8sODU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
 
       <h2>
-        Somos Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-        quam neque necessitatibus omnis sint! Doloremque impedit dignissimos cum
-        blanditiis. Non optio molestias voluptatibus exercitationem nulla at,
-        odio fugiat inventore ab.
+        Somos un grupo de personal trainers, cada uno con una especialidad
+        diferente, años experiencia que aseguran un asesoramiento de calidad,
+        puedes consultar en cualquier momento el cv de carrera de cualquiera de
+        nuestros entrenadores.
       </h2>
     </main>
 
@@ -99,7 +114,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Facebook</h5>
+                <h3 class="card-title">Facebook</h3>
                 <p class="card-text">
                   Ponte en contacto con un asesor que respondera todas tus
                   preguntas. Tiempo de atencion estimado 24hs
@@ -107,7 +122,7 @@
                 <a
                   href="https://www.facebook.com/"
                   target="_blank"
-                  class="btn btn-primary bg-dark"
+                  class="btn btn-clasebotones"
                   >Quiero hablar con un asesor</a
                 >
               </div>
@@ -116,7 +131,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Soporte</h5>
+                <h3 class="card-title">Soporte</h3>
                 <p class="card-text">
                   Si ya has adquirido un plan y estas teniendo algun
                   incoveniente genera un ticket para recibir ayuda de nuestro
@@ -125,7 +140,7 @@
                 <a
                   href="https://outlook.live.com/"
                   target="_blank"
-                  class="btn btn-primary bg-dark"
+                  class="btn btn-clasebotones"
                   >Necesito ayuda</a
                 >
               </div>

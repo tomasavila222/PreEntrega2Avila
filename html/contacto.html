@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../img/logotiempolibre.jpg" />
+    <meta
+    name="description"
+    content="Encontra a tu personal trainer ideal, el cual te proporcionara seguimiento y una guia detalla de acuerdo a tus necesidades sobre como conseguir aquello que buscas de manera mas eficiente"
+  />
+  <meta
+    name="keywords"
+    content="Personal trainer, ejercicio, dieta, asesoramiento, online"
+  />
+  <meta name="author" content="Tomas Avila" />
     <title>Contacto</title>
-      <link
-      rel="stylesheet"
-      type="text/css"
-      href="../scss/custom.css"
-    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,6 +26,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" type="text/css" href="../scss/custom.css" />
   </head>
 
   <body>
@@ -32,11 +37,11 @@
             <img
               class="logoheader"
               src="../img/logotiempolibre.jpg"
-              alt="logonavegacion"
+              alt="logo tiempo libre pequeño para el menu navegacion"
             />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler botonMenu"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -44,7 +49,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon imagenBotonNav"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -68,40 +73,52 @@
         </div>
       </nav>
     </header>
-
+    <h1 class="h1formulario">
+      Si deseas mas informacion rellena el formulario, y en breve uno de
+      nuestros asesores se contactara contigo
+    </h1>
     <main class="formulario">
       <form action="">
-        <fieldset>
+        <fieldset class="formcontact">
           <legend>Formulario de contacto</legend>
           <label for="nombre">Nombre: </label>
-          <input type="text" name="nombre" />
+          <input class="inputclass" type="text" name="nombre" required="" />
 
           <label for="apellido">Apellido: </label>
-          <input type="text" name="apellido" />
+          <input class="inputclass" type="text" name="apellido" required="" />
 
           <label
             >Numero de telefono:
-            <input type="number" />
+            <input class="inputclass" type="number" name="Numero" required="" />
           </label>
 
           <p>Genero</p>
-          <select name="genero">
+          <select class="inputclass" name="genero">
             <option value="hombre">Hombre</option>
             <option value="mujer">Mujer</option>
             <option value="otro">Otro</option>
           </select>
 
           <label for="correo">E-mail:</label>
-          <input type="email" name="correo" placeholder="jose@gmail.com" />
+          <input
+            class="inputclass"
+            type="email"
+            name="correo"
+            placeholder="direccion@gmail.com"
+            required=""
+          />
 
           <input type="checkbox" name="aceptar" value="verdadero" />
-          <span>Deseo recibir informacion sobre planes</span>
-
-          <input type="submit" value="Enviar" />
-          <input type="reset" value="Borrar" />
+          <span>Acepto el uso de esta informacion para contactarme</span>
+          <input class="inputclass" type="submit" value="Enviar" />
+          <input class="inputclass" type="reset" value="Limpiar formulario" />
         </fieldset>
       </form>
     </main>
+    <h2>
+      Esta informacion no se utilizara para ningun medio que no sea contactarte,
+      Tiempo libre no distribuira de ninguno de estos datos.
+    </h2>
 
     <footer class="footer">
       <section>
@@ -109,7 +126,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Facebook</h5>
+                <h3 class="card-title">Facebook</h3>
                 <p class="card-text">
                   Ponte en contacto con un asesor que respondera todas tus
                   preguntas. Tiempo de atencion estimado 24hs
@@ -117,7 +134,7 @@
                 <a
                   href="https://www.facebook.com/"
                   target="_blank"
-                  class="btn btn-primary bg-dark"
+                  class="btn btn-clasebotones"
                   >Quiero hablar con un asesor</a
                 >
               </div>
@@ -126,7 +143,7 @@
           <div class="col-sm-6">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Soporte</h5>
+                <h3 class="card-title">Soporte</h3>
                 <p class="card-text">
                   Si ya has adquirido un plan y estas teniendo algun
                   incoveniente genera un ticket para recibir ayuda de nuestro
@@ -135,7 +152,7 @@
                 <a
                   href="https://outlook.live.com/"
                   target="_blank"
-                  class="btn btn-primary bg-dark"
+                  class="btn btn-clasebotones"
                   >Necesito ayuda</a
                 >
               </div>

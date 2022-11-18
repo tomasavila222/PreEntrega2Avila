@@ -1,20 +1,15 @@
 h1 {
-    color: #023E73;
+  @include hss(10px)
   }
   
   h2 {
-    text-align: center;
-    color: #023E73;
-    padding: 20px;
+    @include hss(20px,fit-content)
   }
   
   h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    padding: 15px;
-    color: #03658C;
+    @include hss(15px)
   }
   
   h4 {
-    color: #03658C;
+    color: #023E73;
   }
